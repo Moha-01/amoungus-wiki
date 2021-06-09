@@ -1,0 +1,2 @@
+# amoungus-wiki
+Wiki
