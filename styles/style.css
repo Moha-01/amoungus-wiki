@@ -4,6 +4,8 @@
 #main{
   background-color: #000000;
   font-family: 'Otomanopee One', sans-serif;
+  overflow-x: hidden; //horizontal
+  overflow-y: scroll; //vertical
 }
 
 h1{
