@@ -19,20 +19,47 @@ h1{
   color: #edf0f1;
   text-decoration: none;
 }
-
+/*
 header {
   display: flex;
   justify-content: flex-end;
   align-items: center;
   padding: 30px 10%;
 
+}*/
+/* test*/
+header{
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  flex-flow: row wrap;
+  padding: 0px;
+  color: #fff;
+  background-color: #121c25;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
+
+
+.header > *{
+  flex: 1 100%;
+}
+
 
 .logo {
   cursor: pointer;
   margin-right: auto;
-  weight: 200px;
-  height: 100px
+  weight: 150px;
+  height: 75px
+}
+
+.logo-text{
+  cursor: pointer;
+  font-size:160%;
 }
 
 .nav_links {
@@ -41,7 +68,7 @@ header {
 
 .nav_links li {
   display: inline-block;
-  padding: 0px 20px;
+  padding: 35px 35px;
 }
 
 .nav_links li a{
