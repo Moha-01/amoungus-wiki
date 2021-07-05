@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Monterrat:500');
 
-#main{
+#body{
   background-color: #000000;
   font-family: 'Otomanopee One', sans-serif;
   overflow-x: hidden; //horizontal
@@ -12,70 +11,6 @@ h1{
   color: white;
 }
 
-.nav_css{
-  font-family: sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  color: #edf0f1;
-  text-decoration: none;
-}
-/*
-header {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  padding: 30px 10%;
+#main {
 
-}*/
-/* test*/
-header{
-  display: -webkit-flex;
-  display: -moz-flex;
-  display: -ms-flex;
-  display: -o-flex;
-  display: flex;
-  flex-flow: row wrap;
-  padding: 0px;
-  color: #fff;
-  background-color: #121c25;
-  overflow: hidden;
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
-
-.header > *{
-  flex: 1 100%;
-}
-
-
-.logo {
-  cursor: pointer;
-  margin-right: auto;
-  weight: 150px;
-  height: 75px
-}
-
-.logo-text{
-  cursor: pointer;
-  font-size:160%;
-}
-
-.nav_links {
-  list-style: none;
-}
-
-.nav_links li {
-  display: inline-block;
-  padding: 35px 35px;
-}
-
-.nav_links li a{
-  transition: all 0.3s ease 0s;
-}
-
-
-.nav_links li a:hover{
-  color: #0088a9;
 }
