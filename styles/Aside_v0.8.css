@@ -1,10 +1,10 @@
-body{
+.aside_body{
     background-color: black;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-section
+.aside_section
 {
     border-style: solid;
     border-radius: 5px;
@@ -12,14 +12,14 @@ section
     margin-bottom: 25px;
 }
 
-div {
+.aside_div {
     border-style: solid;
     border-radius: 5px;
     padding: 10px;
     text-align: center;
 
 }
-img
+.aside_img
 {
     display: block;
     max-width: 90%;
@@ -32,7 +32,7 @@ img
 
 }
 
-p
+.aside_p
 {
     margin: 7px;
     text-align: center;
