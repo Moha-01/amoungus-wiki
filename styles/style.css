@@ -11,6 +11,27 @@ h1{
   color: white;
 }
 
-#main {
+
+
+.privacy_section
+{
+    background-color: black;
+    color: white;
+    width: 70%;
+    padding: 5px;
+    padding-left: 15px;
+    margin-left: 80px;
+    padding-right: 15px;
+    margin-right: 20px;
+    border-style: solid;
+    border-radius: 5px;
+    margin-bottom: 25px;
+}
+
+.privacy_div {
+    border-style: solid;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
 
 }

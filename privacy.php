@@ -5,7 +5,7 @@ include "./html/background.html";
 include "./html/header.html";
 
 //hier die Seite angeben!
-include "./html/home.html";
+include "./html/privacy.html";
 
 
 include "./html/footer.html";
