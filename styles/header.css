@@ -19,7 +19,7 @@ header{
   padding: 0px;
   color: #fff;
   background-color: #121c25;
-  
+
 }
 
 
@@ -81,4 +81,8 @@ header strong img{
     width: 100%;
     height: auto;
   }
+}
+
+#home-klick{
+  text-decoration: none;
 }
