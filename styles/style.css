@@ -7,7 +7,7 @@
   overflow-y: scroll; //vertical
 }
 
-h1{
+h1, h2, h3{
   color: white;
 }
 
@@ -18,13 +18,13 @@ h1{
     background-color: black;
     color: white;
     width: 70%;
+    border-style: solid;
+    border-radius: 5px;
     padding: 5px;
     padding-left: 15px;
     margin-left: 80px;
     padding-right: 15px;
     margin-right: 20px;
-    border-style: solid;
-    border-radius: 5px;
     margin-bottom: 25px;
 }
 
