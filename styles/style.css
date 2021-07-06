@@ -11,8 +11,6 @@ h1, h2, h3{
   color: white;
 }
 
-
-
 .privacy_section
 {
     background-color: black;
@@ -21,7 +19,7 @@ h1, h2, h3{
     border-style: solid;
     border-radius: 5px;
     padding: 5px;
-    padding-left: 15px;
+    padding-left: 20px;
     margin-left: 80px;
     padding-right: 15px;
     margin-right: 20px;
@@ -34,4 +32,53 @@ h1, h2, h3{
     padding: 10px;
     text-align: center;
 
+}
+
+summary {
+  border: 4px solid transparent;
+  outline: none;
+  &:focus {
+    border-color: black;
+  }
+  padding: 1rem;
+  display: block;
+  background: black;
+  color: white;
+  padding-left: 2.2rem;
+  position: relative;
+  cursor: pointer;
+}
+
+details {
+  margin-top: 5px;
+  background: black;
+}
+
+details summary::-webkit-details-marker {
+  display:none;
+}
+
+details[open] > summary:before {
+  transform: rotate(90deg);
+}
+
+summary:before {
+  content: '';
+  border-width: .4rem;
+  border-style: solid;
+  border-color: transparent transparent transparent #fff;
+  position: absolute;
+  top: 1.3rem;
+  left: 1rem;
+  transform: rotate(0);
+  transform-origin: .2rem 50%;
+  transition: .25s transform ease;
+}
+
+.content {
+  padding: 10px;
+}
+
+.no_underline_link {
+  text-decoration: none;
 }

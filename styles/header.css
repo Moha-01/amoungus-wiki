@@ -19,9 +19,7 @@ header{
   padding: 0px;
   color: #fff;
   background-color: #121c25;
-
 }
-
 
 .header > *{
   flex: 1 100%;
@@ -33,9 +31,7 @@ header{
   font-size: 16px;
   color: #edf0f1;
   text-decoration: none;
-
 }
-
 
 .logo {
   cursor: pointer;
@@ -57,20 +53,16 @@ header strong img{
 
 .nav_links {
   list-style: none;
-
 }
 
 .nav_links li {
   display: inline-block;
   padding: 35px 20px ;
-
 }
 
 .nav_links li a{
   transition: all 0.3s ease 0s;
-
 }
-
 
 .nav_links li a:hover{
   color: #0088a9;
