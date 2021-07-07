@@ -15,6 +15,12 @@ h1, h2, h3{
   color: white;
 }
 
+figure img
+{
+  width: 50%;
+  height: auto;
+}
+
 .content_section
 {
     background-color: black;
@@ -35,8 +41,19 @@ h1, h2, h3{
     border-radius: 5px;
     padding: 10px;
     text-align: center;
-
 }
+
+.content_th_top
+{
+  vertical-align: top;
+  text-align: left;
+}
+
+.content_th_right
+{
+  vertical-align: right;
+}
+
 
 
 summary {
