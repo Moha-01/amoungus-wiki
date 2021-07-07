@@ -1,4 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap');
+
+@font-face {
+  font-family: "Otomanopee One";
+  src: url('../fonts/OtomanopeeOne-Regular.ttf');
+}
 
 #body{
   background-color: #000000;
@@ -81,7 +85,9 @@ summary:before {
 }
 
 .no_underline_link {
+  font-size: 30px;
   text-decoration: none;
+  text-decoration-color: #b7d0e5;
 }
 
 .welcome_img{
@@ -104,6 +110,7 @@ summary:before {
 }
 
 .button_f {
+  font-family: 'Otomanopee One', sans-serif;
   margin-top: 15px;
   background-color: black;
   border: 1px;
