@@ -2,5 +2,166 @@
   <?php
     include "aside.html";
   ?>
-  <h1>Tasks</h1>
+  <section class="content_section">
+      <div class="content_div">
+          <h1>Tasks</h1>
+      </div>
+      <br>
+      <abbr title="An example of a task list."><img class="welcome_img" src="./assets/task_list_example.png" alt="An example of a task list."></abbr>
+      <article>
+          <br>
+            <p class="aside_p">
+                Tasks are one of the main objectives of Crewmates during gameplay in Among Us. If all Crewmates, including ghosts, finish their tasks, the Crewmates automatically win the game. Tasks can be found all over the map. Impostors cannot complete tasks, but they are given a list of fake tasks to aid them.
+            </p>
+            <br>
+            <p>
+                There are four different types of tasks: <br>
+            </p>
+            <ul>
+                <li><strong><u>Short tasks</u></strong> often require only a single stage and take very little time to do depending on the player's speed, such as Chart Course.</li>
+                <li><strong><u>Long tasks</u></strong> usually have multiple stages, or force the player to spend a long time, such as Start Reactor.</li>
+                <li><strong><u>Visual tasks</u></strong>, when performed, show an animation visible to all players. Completing a visual task in front of a group is an easy way to confirm a Crewmate, as other players will see the task being completed, proving a player's innocence. Visual tasks' visual effects can be turned off in the game options by the host. Visual tasks may still be assigned to players even if visual effects are off.</li>
+                <li><strong><u>Common tasks</u></strong> are assigned to every player in a game if one or more common tasks have been set in the game settings by the host of the game. For example, if one player has Swipe Card, everybody else does. Conversely, if one Crewmate does not have Swipe Card, then no other player has the task. Common tasks are an easy way to rat out Impostors, for if a Crewmate sees someone running a common task that they do not have, they can confirm that the other player is An Impostor. Crewmates should know what the common tasks are before using the emergency button and wasting a meeting.</li>
+            </ul>
+            <p>
+                The number of short tasks, long tasks, and common tasks can be adjusted in the game's options.<br>
+            </p>
+            <p>
+                In a player's task list, common tasks are listed first, followed by long tasks and short tasks on the bottom. This also applies to automatically generated lists in Freeplay, but not when a player edits their Freeplay tasks.<br>
+            </p>
+        </article>
+        <br> <br>
+        <article>
+          <hr>
+          <hr>
+          <p class="aside_p">
+              Overview
+          </p>
+          <hr>
+          <hr>
+          <p class="aside_p">The number of tasks that need to be completed can be set in the lobby by the host in the options menu, with a maximum of two common tasks, three long tasks, and five short tasks. A task's type is also dependent on the map played on. For example, Fuel Engines is considered a long task on The Skeld, Polus and The Airship, but is a short task on MIRA HQ.</p>
+          <br>
+          <p class="aside_p">If a task has multiple stages, a yellow arrow will appear on the player's screen, directing them to the location of the next stage of their task. The arrow's appearance is similar to that of the arrows pointing to Sabotages, excluding the red blinking effect. If Communications is sabotaged, the arrows will disappear. Tasks you need to complete are also marked by yellow outlines when you are in close proximity to the task.</p>
+          <br>
+          <p class="aside_p">ertain tasks are also classified as visual tasks, meaning other players can see a visual indicator of the task being completed. These tasks are challenging for Impostors to fake, and can be a sure-fire indicator of a lone Crewmate's innocence. However, The Airship contains no visual tasks. The lobby's host can also disable the visual effects of these tasks in Options.</p>
+        </article>
+        <br>
+        <section class="inner_content_section ">
+            <div class="content_div ">
+                <h1>Task Bar</h1>
+            </div>
+            <br>
+            <div class="sub_content">
+                <div class="sub_content_aside_body_right">
+                  <section class="aside_section">
+                      <div class="inner_aside_div">
+                          <h1>Empty</h1>
+                      </div>
+                      <img class="welcome_img" src="./assets/Empty_task_bar.png" alt="Empty Task Bar">
+                  </section>
+                </div>
+                <div class="sub_content_aside_body_left">
+                  <section class="aside_section">
+                      <div class="inner_aside_div">
+                          <h1>Full</h1>
+                      </div>
+                      <img class="welcome_img" src="./assets/Full_task_bar.png" alt="Full Task Bar">
+                  </section>
+                </div>
+                <div class="sub_content_aside_body_right">
+                  <section class="aside_section">
+                      <div class="inner_aside_div">
+                          <h1>Comms Sabotaged</h1>
+                      </div>
+                      <img class="welcome_img" src="./assets/Comms_Sabotaged_task_bar.png" alt="Comms Sabotaged Task Bar">
+                  </section>
+                </div>
+            </div>
+            <article>
+                <p class="aside_p">The task bar shows the number of tasks completed. By default, the task bar updates when a Crewmate completes a task. Multi-step tasks only raise the bar when their final stage is completed. For example, if players run Divert Power's first stage, in Electrical on The Skeld or The Airship, or Reactor on MIRA HQ, the task bar will not fill. However, once they complete the second stage in another location, the task bar will increase. If a player leaves a task without the bar increasing, they have a high chance of being An Impostor or doing a multi-step task. The frequency of the task bar being updated can be changed in the game's options. The task bar can be set to always update upon task completion, update at the start of an emergency meeting, or never update at all (the task bar is hidden in this case).</p>
+            </article>
+        </section>
+        <br>
+        <section class="inner_content_section ">
+            <div class="content_div ">
+                <h1>Fake Tasks</h1>
+            </div>
+            <br>
+            <article>
+                <p class="aside_p">For each Impostor, a list of fake tasks will appear in the screen's top-left corner—the same location as Crewmates' task lists. This list is used to help An Impostor act as a Crewmate when pretending to complete tasks. The fake task list will also inform Impostors of all common tasks given to the Crewmates, helping them lower their chances of being caught. Fake tasks cannot be done. In Reactor on The Skeld, there is a 'task' that appears to be for Divert power, but is impossible to complete. Another such dummy task can be seen on Polus in the Office, despite the fact that Divert Power is not an available task on the map. Three panels of Fix Wiring 'tasks' in Armory, Communications, and Vault on The Airship are also presented as dummy tasks and cannot be done. There is a bin for an Empty Garbage 'task' is located in Lounge near the stalls.</p>
+            </article>
+        </section>
+        <br>
+        <section class="inner_content_section ">
+            <div class="content_div ">
+                <h1>Free Play</h1>
+            </div>
+            <br>
+            <article>
+                <p class="aside_p">To edit tasks in Freeplay, there is a computer on the table (called Task Tester 2000) that also contains the emergency button, or at spawn on The Airship. Pressing Customize, any task on the map can be assigned. The tasks are sorted by location.</p>
+            </article>
+        </section>
+        <br>
+        <article>
+          <div id="tasks_list">
+            <table>
+              <caption><hr><hr>List of Tasks <hr><hr></caption>
+                <thead>
+                    <tr>
+                      <th>Task</th>
+                      <th>Map</th>
+                      <th>Type</th>
+                      <th>List of Steps</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                      <td>Align Engine Output</td>
+                      <td>The Skeld</td>
+                      <td>Long</td>
+                      <td>
+                          <ul>
+                            <li>Upper Engine</li>
+                            <li>Lower Engine</li>
+                          </ul>
+                      </td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                      <td>Footer content 1</td>
+                      <td>Footer content 2</td>
+                      <td>Footer content 3</td>
+                      <td>Footer content 4</td>
+                    </tr>
+                </tfoot>
+              </table>
+          </div>
+        </article>
+        <br>
+  </section>
 </main>
+
+<!--
+      Sub Tasks:
+      <div class="sub_content">
+          <div class="sub_content_aside_body_right">
+            <section class="aside_section">
+                <div class="aside_div">
+                    <h1>Sub Tasks</h1>
+                </div>
+                <img class="welcome_img" src="./assets/welcome_banner.jpg" alt="Welcome Banner">
+            </section>
+          </div>
+          <div class="sub_content_aside_body_left">
+            <section class="aside_section">
+                <div class="aside_div">
+                    <h1>Sub Tasks1</h1>
+                </div>
+                <img class="welcome_img" src="./assets/welcome_banner.jpg" alt="Welcome Banner">
+            </section>
+          </div>
+      </div>
+
+
+  -->

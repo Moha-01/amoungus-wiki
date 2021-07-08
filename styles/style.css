@@ -7,6 +7,7 @@
 #body{
   background-color: #000000;
   font-family: 'Otomanopee One', sans-serif;
+  font-size: 20px;
   overflow-x: hidden; //horizontal
   overflow-y: scroll; //vertical
 }
@@ -23,6 +24,8 @@ figure img
 
 .content_section
 {
+    display: grid;
+    position: relative;
     background-color: black;
     color: white;
     width: 70%;
@@ -34,6 +37,51 @@ figure img
     padding-right: 15px;
     margin-right: 20px;
     margin-bottom: 25px;
+}
+
+.inner_content_section{
+  display: grid;
+  position: relative;
+  background-color: black;
+  color: white;
+  width: 90%;
+  border-style: solid;
+  border-radius: 5px;
+  padding: 5px;
+  padding-left: 20px;
+  margin-left: 70px;
+  padding-right: 15px;
+  margin-right: 20px;
+  margin-bottom: 25px;
+}
+
+.sub_content {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.sub_content_aside_body_right{
+  display: inline-block;
+  position: relative;
+  background-color: black;
+  color: white;
+  width: 45%;
+  padding: 5px;
+}
+
+.sub_content_aside_body_left{
+  display: inline-block;
+  position: relative;
+  background-color: black;
+  color: white;
+  width: 45%;
+  padding: 5px;
+}
+
+.inner_aside_div{
+  border-style: solid;
+  border-radius: 5px;
+  text-align: center;
 }
 
 .content_div {
@@ -150,4 +198,10 @@ summary:before {
 
 .hide_span{
   visibility: hidden;
+}
+
+#tasks_list{
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }
