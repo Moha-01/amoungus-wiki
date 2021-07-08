@@ -207,25 +207,25 @@ summary:before {
   margin: 0;
 }
 
-table, th, td {
+.table_tasks, .th_tasks, .td_tasks {
   border: 2px solid white;
   text-align: center;
   padding: 30px;
 }
 
-table {
+.table_tasks {
   padding: 5px;
 }
 
-tr:nth-child(even){
+.tr_tasks:nth-child(even){
   background-color: gray;
 }
 
-tr:hover {
+.tr_tasks:hover {
   background-color: lightgray;
   color: black;
 }
 
-thead{
+.thead_tasks{
   background-color: red;
 }
