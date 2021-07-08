@@ -2,5 +2,20 @@
   <?php
     include "aside.html";
   ?>
-  <h1>Contact</h1>
+  <section class="content_section">
+      <div class="content_div">
+          <h1>Contact</h1>
+      </div>
+      <form class="contact_form flex-item" action="./scripts/script.php" method="post"><br>
+          <label for="firstname"><span class="hide_span">---</span>Firstname:</label> <br>
+          <span class="hide_span">---</span><input type="text" id="firstname" value=""><br>
+          <label for="lastname"><span class="hide_span">---</span>Lastname:</label> <br>
+          <span class="hide_span">---</span><input type="text" id="lasname" value=""><br>
+          <label for="email"><span class="hide_span">---</span>Email:</label> <br>
+          <span class="hide_span">---</span><input type="email" id="email" value=""><br>
+          <label for="message"><span class="hide_span">---</span>Message:</label> <br>
+          <span class="hide_span">---</span><textarea id="message" rows="25" cols="100"></textarea><br>
+          <button class="button_f" type="submit">Submit</button>
+      </form>
+  </section>
 </main>
