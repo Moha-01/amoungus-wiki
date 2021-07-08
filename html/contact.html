@@ -4,18 +4,19 @@
   ?>
   <section class="content_section">
       <div class="content_div">
-          <h1>Contact</h1>
+          <h1>Contact Us</h1>
       </div>
+      <p class="aside_p">We'd love to hear from you!</p>
       <form class="contact_form flex-item" action="./scripts/script.php"><br>
-          <label for="firstname"><span class="hide_span">---</span>Firstname:</label> <br>
-          <span class="hide_span">---</span><input type="text" name="firstname" value=""><br>
-          <label for="lastname"><span class="hide_span">---</span>Lastname:</label> <br>
-          <span class="hide_span">---</span><input type="text" name="lastname" value=""><br>
-          <label for="email"><span class="hide_span">---</span>Email:</label> <br>
-          <span class="hide_span">---</span><input type="email" name="email" value=""><br>
-          <label for="message"><span class="hide_span">---</span>Message:</label> <br>
-          <span class="hide_span">---</span><textarea name="message" rows="25" cols="100"></textarea><br>
+          <label ><span class="hide_span">---</span>Firstname:</label> <br>
+          <span class="hide_span">---</span><input type="text" name="firstname" value="" required><br>
+          <label ><span class="hide_span">---</span>Lastname:</label> <br>
+          <span class="hide_span">---</span><input type="text" name="lastname" value="" required><br>
+          <label ><span class="hide_span">---</span>Email:</label> <br>
+          <span class="hide_span">---</span><input type="email" name="email" value="" required><br>
+          <label ><span class="hide_span">---</span>Message:</label> <br>
+          <span class="hide_span">---</span><textarea name="message" rows="25" cols="100" required></textarea><br>
           <button class="button_f" type="submit">Submit</button>
       </form>
-  </section>
+    </section>
 </main>
