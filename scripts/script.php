@@ -55,6 +55,8 @@ $message = $_GET["message"];
   echo "<p>Are the Data Correct? If yes klick on the send Button down below 🠗<p>";
   echo "<div class=\"home_features\">";
   echo "<form action=\"./success.php\" class=\"flex-item\">";
+  echo "<span class=\"hide_span\"><input type=\"text\" name=\"firstname\" value=\"$firstname\"></span>";
+  echo "<span class=\"hide_span\"><input type=\"email\" name=\"email\" value=\"$email\"></span>";
   echo "<button class=\"button_f\">Send</button>";
   echo "</form></div>";
   echo "</section>";

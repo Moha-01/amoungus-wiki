@@ -33,22 +33,19 @@
            </nav>
        </header>
        <hr>
-
  <?php
  $firstname = $_GET["firstname"];
- $lastname = $_GET["lastname"];
  $email = $_GET["email"];
- $message = $_GET["message"];
  ?>
  <section class="content_section">
      <div class="content_div">
          <h1>Success</h1>
      </div>
-     <img class="welcome_img" src="./assets/success.jpg" alt="Success Banner">
+     <img class="welcome_img" src="../assets/success.jpg" alt="Success Banner">
      <br>
 
  <?php
-   echo "<p class=\"aside_p\"> Thank you <strong> $firstname </strong> for contacting us. We will reply on your E-Mail: <strong> ($email) </strong>as soon as we can. <p>"
+   echo "<p class=\"aside_p\"> Thank you <strong> $firstname </strong> for contacting us. We will reply on your E-Mail: <strong> ($email) </strong>as soon as we can. <p>";
 
    echo "</section>";
   ?>
