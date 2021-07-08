@@ -39,6 +39,12 @@ figure img
     margin-bottom: 25px;
 }
 
+.content_p_left
+{
+  text-align: left;
+  margin: 10px;
+}
+
 .inner_content_section{
   display: grid;
   position: relative;
@@ -88,6 +94,14 @@ figure img
     border-style: solid;
     border-radius: 5px;
     padding: 10px;
+    text-align: center;
+}
+
+.content_div_margin {
+    border-style: solid;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
     text-align: center;
 }
 
@@ -149,6 +163,17 @@ summary:before {
   padding: 10px;
 }
 
+.content_center{
+  padding: 10px;
+  margin: 5px;
+  align-content: center;
+}
+
+.content_li_left
+{
+  text-align: left;
+}
+
 .no_underline_link {
   font-size: 30px;
   text-decoration: none;
@@ -205,6 +230,20 @@ summary:before {
   justify-content: center;
   width: 100%;
   margin: 0;
+}
+/*
+content_table_td and  is primarily used in the colors subpage
+*/
+.content_table_td{
+  text-align: center;
+  padding: 30px;
+}
+
+.table_heading{
+  background-color: grey;
+  text-align: center;
+  padding: 10px;
+  border: 2px solid white;
 }
 
 .table_tasks, .th_tasks, .td_tasks {
