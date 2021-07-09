@@ -34,10 +34,10 @@
       <hr>
 
 <?php
-$firstname = $_GET["firstname"];
-$lastname = $_GET["lastname"];
-$email = $_GET["email"];
-$message = $_GET["message"];
+$firstname = $_POST["firstname"];
+$lastname = $_POST["lastname"];
+$email = $_POST["email"];
+$message = $_POST["message"];
 ?>
 <section class="content_section">
     <div class="content_div">
@@ -54,7 +54,7 @@ $message = $_GET["message"];
   echo "<p class=\"aside_p\">   $message<p><br><br>";
   echo "<p class=\"aside_p\">Are the Data Correct? If yes klick on the send Button down below 🠗<p>";
   echo "<div class=\"home_features\">";
-  echo "<form action=\"./success.php\" class=\"flex-item\">";
+  echo "<form action=\"./success.php\" class=\"flex-item\" method=\"post\">";
   echo "<span class=\"hide_span\"><input type=\"text\" name=\"firstname\" value=\"$firstname\"></span>";
   echo "<span class=\"hide_span\"><input type=\"email\" name=\"email\" value=\"$email\"></span><br>";
   echo "<button class=\"button_send\">Send</button>";

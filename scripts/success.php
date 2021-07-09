@@ -34,8 +34,8 @@
        </header>
        <hr>
  <?php
- $firstname = $_GET["firstname"];
- $email = $_GET["email"];
+ $firstname = $_POST["firstname"];
+ $email = $_POST["email"];
  ?>
  <section class="content_section">
      <div class="content_div">
@@ -45,7 +45,7 @@
      <br>
 
  <?php
-   echo "<p class=\"aside_p\"> Thank you <strong> $firstname </strong> for contacting us. We will reply on your E-Mail: <strong> ($email) </strong>as soon as we can. <p>";
+   echo "<p class=\"aside_p\"> Thank you <strong> $firstname </strong> for contacting us. We will reply to your E-Mail: <strong> ($email) </strong>as soon as we can. <p>";
 
    echo "</section>";
   ?>
