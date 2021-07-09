@@ -54,13 +54,13 @@
             echo "<p class=\"aside_p\">Fullname: $lastname, $firstname<p>";
             echo "<p class=\"aside_p\">E-Mail: $email<p>";
             if ($selectOption == "High"){
-              echo "<p class=\"aside_p\">Priority: $selectOption<p><figure class=\"content_centered\"><img class=\"prio\" src=\"../assets/high_p.png\" alt=\"\"></figure></section>";
+              echo "<p class=\"aside_p\">Priority: $selectOption<p><figure class=\"content_centered\"><img class=\"prio\" src=\"../assets/priority/high_p.png\" alt=\"\"></figure></section>";
             }
             if ($selectOption == "Medium"){
-              echo "<p class=\"aside_p\">Priority: $selectOption<p><figure class=\"content_centered\"><img  class=\"prio\" src=\"../assets/medium_p.png\" alt=\"\"></figure></section>";
+              echo "<p class=\"aside_p\">Priority: $selectOption<p><figure class=\"content_centered\"><img  class=\"prio\" src=\"../assets/priority/medium_p.png\" alt=\"\"></figure></section>";
             }
             if ($selectOption == "Low"){
-              echo "<p class=\"aside_p\">Priority: $selectOption<p><figure class=\"content_centered\"><img class=\"prio\" src=\"../assets/low_p.png\" alt=\"\"></figure></section>";
+              echo "<p class=\"aside_p\">Priority: $selectOption<p><figure class=\"content_centered\"><img class=\"prio\" src=\"../assets/priority/low_p.png\" alt=\"\"></figure></section>";
             }
             echo "<section class=\"inner_content_section \">";
             echo "<div class=\"content_div \">";

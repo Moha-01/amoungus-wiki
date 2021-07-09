@@ -480,3 +480,8 @@ a[href^="http"] {
   padding:0px 0px 15px;
   color: white;
 }
+
+.iframe_website{
+  width: 100%;
+  height: 500px;
+}
