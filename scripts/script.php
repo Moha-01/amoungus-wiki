@@ -47,17 +47,17 @@ $message = $_GET["message"];
     <br>
 
 <?php
-  echo "<p>Your Data:</p>";
-  echo "<p>Fullname: $lastname, $firstname<p>";
-  echo "<p>E-Mail: $email<p>";
-  echo "<p>Message: <p>";
+  echo "<p class=\"aside_p\">Your Data:</p>";
+  echo "<p class=\"aside_p\">Fullname: $lastname, $firstname<p>";
+  echo "<p class=\"aside_p\">E-Mail: $email<p>";
+  echo "<p class=\"aside_p\">Message: <p>";
   echo "<p class=\"aside_p\">   $message<p><br><br>";
-  echo "<p>Are the Data Correct? If yes klick on the send Button down below 🠗<p>";
+  echo "<p class=\"aside_p\">Are the Data Correct? If yes klick on the send Button down below 🠗<p>";
   echo "<div class=\"home_features\">";
   echo "<form action=\"./success.php\" class=\"flex-item\">";
   echo "<span class=\"hide_span\"><input type=\"text\" name=\"firstname\" value=\"$firstname\"></span>";
-  echo "<span class=\"hide_span\"><input type=\"email\" name=\"email\" value=\"$email\"></span>";
-  echo "<button class=\"button_f\">Send</button>";
+  echo "<span class=\"hide_span\"><input type=\"email\" name=\"email\" value=\"$email\"></span><br>";
+  echo "<button class=\"button_send\">Send</button>";
   echo "</form></div>";
   echo "</section>";
  ?>
