@@ -61,6 +61,20 @@ figure img
   margin-bottom: 25px;
 }
 
+.inner_content_section_without_border{
+  display: grid;
+  position: relative;
+  background-color: black;
+  color: white;
+  width: 90%;
+  padding: 5px;
+  padding-left: 20px;
+  margin-left: 70px;
+  padding-right: 15px;
+  margin-right: 20px;
+  margin-bottom: 25px;
+}
+
 .sub_content {
   display: flex;
   justify-content: space-evenly;
