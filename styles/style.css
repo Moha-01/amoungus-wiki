@@ -116,6 +116,14 @@ figure img
   vertical-align: right;
 }
 
+.content_centered{
+  display: flex;
+  justify-content: center;
+}
+
+.prio{
+  width: 10%;
+}
 
 
 summary {
@@ -420,4 +428,24 @@ content_table_td and  is primarily used in the colors subpage
 .input_cu[type=checkbox]:checked + .label_cu {
   color: #f00;
   font-style: normal;
+}
+
+select {
+    display: block;
+    font-size: 1em;
+    padding: .6em 1.4em .5em .8em;
+    width: 20em;
+    max-width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    border: 1px solid white;
+    box-shadow: 0 1px 0 1px rgba(0,0,0,.04);
+    border-radius: .5em;
+    -webkit-appearance: none;
+    appearance: none;
+    background-color:  black;
+    color: White
+}
+select::-ms-expand {
+    display: none;
 }

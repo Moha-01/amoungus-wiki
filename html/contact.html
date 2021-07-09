@@ -5,13 +5,13 @@
         </div>
           <p class="aside_p">We'd love to hear from you!</p>
           <form class="contact_form flex-item" action="./scripts/script.php" autocomplete="off" method="post">
-              <div class="row input-container">
+            <div class="row input-container">
             			<div class="col-xs-12">
             				<div class="styled-input wide">
             					<input class="input_cu" type="text" name="firstname" required />
             					<label class="label_cu">Firstname</label>
             				</div>
-            			</div>
+            	    </div>
         			<div class="col-md-6 col-sm-12">
             				<div class="styled-input">
             					<input class="input_cu" type="text" name="lastname" required />
@@ -30,6 +30,17 @@
             					<label class="label_cu">Message</label>
             				</div>
         			</div>
+              <div class="col-xs-12">
+                  <div class="styled-input wide">
+                    <label class="lable_select_option">Priority:
+                        <select name="prios" id="prios">
+                          <option value="High">High</option>
+                          <option value="Medium">Medium</option>
+                          <option value="Low">Low</option>
+                        </select>
+                    </label>
+                </div>
+            </div>
         			<div class="col-xs-12">
             				<button class="button_submit">Send Message</button>
         			</div>

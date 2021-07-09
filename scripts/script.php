@@ -38,6 +38,7 @@ $firstname = $_POST["firstname"];
 $lastname = $_POST["lastname"];
 $email = $_POST["email"];
 $message = $_POST["message"];
+$selectOption = $_POST["prios"];
 ?>
 <section class="content_section">
     <div class="content_div">
@@ -51,11 +52,19 @@ $message = $_POST["message"];
   echo "<div class=\"content_div \">";
   echo "<h1>Your Data:</h1></div>";
   echo "<p class=\"aside_p\">Fullname: $lastname, $firstname<p>";
-  echo "<p class=\"aside_p\">E-Mail: $email<p></section>";
+  echo "<p class=\"aside_p\">E-Mail: $email<p>";
+  if ($selectOption == "High"){
+    echo "<p class=\"aside_p\">Priority: $selectOption<p><figure class=\"content_centered\"><img class=\"prio\" src=\"../assets/high_p.png\" alt=\"\"></figure></section>";
+  }
+  if ($selectOption == "Medium"){
+    echo "<p class=\"aside_p\">Priority: $selectOption<p><figure class=\"content_centered\"><img  class=\"prio\" src=\"../assets/medium_p.png\" alt=\"\"></figure></section>";
+  }
+  if ($selectOption == "Low"){
+    echo "<p class=\"aside_p\">Priority: $selectOption<p><figure class=\"content_centered\"><img class=\"prio\" src=\"../assets/low_p.png\" alt=\"\"></figure></section>";
+  }
   echo "<section class=\"inner_content_section \">";
   echo "<div class=\"content_div \">";
   echo "<h1>Message:</h1></div>";
-  echo "<p class=\"aside_p\">Message: <p>";
   echo "<p class=\"aside_p\">   $message<p></section><br><br>";
   echo "<p class=\"aside_p\">Are the Data Correct? If yes klick on the send Button down below 🠗<p>";
   echo "<div class=\"home_features\">";
