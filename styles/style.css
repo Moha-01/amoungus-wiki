@@ -321,6 +321,10 @@ content_table_td and  is primarily used in the colors subpage
   background-color: red;
 }
 
+.thead_abilitys{
+  background-color: green;
+}
+
 .input_cu:focus ~ .label_cu, .textarea_cu:focus ~ .label_cu, .input_cu:valid ~ .label_cu, .textarea_cu:valid ~ .label_cu {
     font-size: 0.75em;
     color: #999;
