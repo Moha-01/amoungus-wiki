@@ -47,11 +47,16 @@ $message = $_POST["message"];
     <br>
 
 <?php
-  echo "<p class=\"aside_p\">Your Data:</p>";
+  echo "<section class=\"inner_content_section \">";
+  echo "<div class=\"content_div \">";
+  echo "<h1>Your Data:</h1></div>";
   echo "<p class=\"aside_p\">Fullname: $lastname, $firstname<p>";
-  echo "<p class=\"aside_p\">E-Mail: $email<p>";
+  echo "<p class=\"aside_p\">E-Mail: $email<p></section>";
+  echo "<section class=\"inner_content_section \">";
+  echo "<div class=\"content_div \">";
+  echo "<h1>Message:</h1></div>";
   echo "<p class=\"aside_p\">Message: <p>";
-  echo "<p class=\"aside_p\">   $message<p><br><br>";
+  echo "<p class=\"aside_p\">   $message<p></section><br><br>";
   echo "<p class=\"aside_p\">Are the Data Correct? If yes klick on the send Button down below 🠗<p>";
   echo "<div class=\"home_features\">";
   echo "<form action=\"./success.php\" class=\"flex-item\" method=\"post\">";
