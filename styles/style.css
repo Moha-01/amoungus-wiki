@@ -196,6 +196,12 @@ summary::before {
   text-align: left;
 }
 
+.content_table_skins{
+  max-width: 100%;
+  height: auto;
+  position: absolute;
+}
+
 .no_underline_link {
   font-size: 30px;
   text-decoration: none;
@@ -311,6 +317,7 @@ content_table_td and  is primarily used in the colors subpage
   padding: 10px;
   border: 2px solid white;
 }
+
 
 .table_tasks, .th_tasks, .td_tasks {
   border: 2px solid white;
