@@ -150,11 +150,11 @@ details summary::-webkit-details-marker {
   display:none;
 }
 
-details[open] > summary:before {
+details[open] > summary::before {
   transform: rotate(90deg);
 }
 
-summary:before {
+summary::before {
   content: '';
   border-width: .4rem;
   border-style: solid;
@@ -430,7 +430,7 @@ content_table_td and  is primarily used in the colors subpage
   font-style: normal;
 }
 
-select {
+select[name="prios"] {
     display: block;
     font-size: 1em;
     padding: .6em 1.4em .5em .8em;
@@ -446,6 +446,19 @@ select {
     background-color:  black;
     color: White
 }
-select::-ms-expand {
+select[name="prios"]::-ms-expand {
     display: none;
+}
+
+a[href^="http"] {
+  background: url(http://www.wierbicki.org/files/web1/img/ext.png) no-repeat 100% 50% / 15px;
+  padding-right: 20px;
+}
+
+.p_imperessum{
+  margin-right:0px;
+  margin-bottom:0px;
+  margin-left:0px;
+  padding:0px 0px 15px;
+  color: white;
 }

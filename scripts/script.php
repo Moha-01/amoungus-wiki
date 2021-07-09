@@ -65,7 +65,7 @@ $selectOption = $_POST["prios"];
   echo "<section class=\"inner_content_section \">";
   echo "<div class=\"content_div \">";
   echo "<h1>Message:</h1></div>";
-  echo "<p class=\"aside_p\">   $message<p></section><br><br>";
+  echo "<p class=\"aside_p\">$message<p></section><br><br>";
   echo "<p class=\"aside_p\">Are the Data Correct? If yes klick on the send Button down below 🠗<p>";
   echo "<div class=\"home_features\">";
   echo "<form action=\"./success.php\" class=\"flex-item\" method=\"post\">";
