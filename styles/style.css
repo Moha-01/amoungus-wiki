@@ -199,7 +199,6 @@ summary::before {
 .content_table_skins{
   max-width: 100%;
   height: auto;
-  position: absolute;
 }
 
 .no_underline_link {
